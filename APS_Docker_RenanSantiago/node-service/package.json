@@ -1,0 +1,15 @@
+{
+  "name": "node-service",
+  "version": "1.0.0",
+  "description": "API de Gerenciamento de Tarefas com Express, Swagger e PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.13.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
